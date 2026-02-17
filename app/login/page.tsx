@@ -58,7 +58,7 @@ export default function LoginPage() {
               <Package className="h-10 w-10 text-primary" />
             </div>
           </div>
-          <CardTitle className="text-3xl font-bold">Rental Manager</CardTitle>
+          <CardTitle className="text-3xl font-bold">Maco Rentals</CardTitle>
           <CardDescription>Sign in to manage your inventory</CardDescription>
         </CardHeader>
         <CardContent>
@@ -91,8 +91,8 @@ export default function LoginPage() {
           </form>
           <div className="mt-6 text-sm text-muted-foreground text-center space-y-1">
             <p>Demo Credentials:</p>
-            <p className="font-mono">Admin: admin@example.com / admin123</p>
-            <p className="font-mono">Staff: staff@example.com / staff123</p>
+            {/* <p className="font-mono">Admin: admin@example.com / admin123</p>
+            <p className="font-mono">Staff: staff@example.com / staff123</p> */}
           </div>
         </CardContent>
       </Card>
